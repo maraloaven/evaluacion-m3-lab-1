@@ -1,0 +1,40 @@
+.navbar {
+  background-color: $primary;
+  padding: 0.25rem 1rem;
+
+  .navbar__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar__logo img {
+    max-height: 40px;
+  }
+
+  .navbar-nav {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .navbar__link {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: $secondary;
+    }
+  }
+
+  .navbar__link--special {
+    background-color: $third;
+
+    &:hover {
+      background-color: darken($third, 10%);
+    }
+  }
+}

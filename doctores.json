@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Dr. Mario",
+    "especialidad": "Medicina Interna",
+    "experiencia": 10,
+    "disponibilidad": "Lunes a Viernes",
+    "contacto": {
+      "email": "mario@clinicaclinica.com",
+      "telefono": "+56912345678"
+    }
+  },
+  {
+    "nombre": "Dra. Ana Polo",
+    "especialidad": "Cirugía General",
+    "experiencia": 6,
+    "disponibilidad": "Martes y Jueves",
+    "contacto": {
+      "email": "ana@clinicaclinica.com",
+      "telefono": "+56987654321"
+    }
+  },
+  {
+    "nombre": "Dr. Nick",
+    "especialidad": "Pediatría",
+    "experiencia": 3,
+    "disponibilidad": "Miércoles y Viernes",
+    "contacto": {
+      "email": "nick@clinicaclinica.com",
+      "telefono": "+56911223344"
+    }
+  },
+  {
+    "nombre": "Dra. Simi",
+    "especialidad": "Ginecología",
+    "experiencia": 8,
+    "disponibilidad": "Lunes y Miércoles",
+    "contacto": {
+      "email": "simi@clinicaclinica.com",
+      "telefono": "+56955667788"
+    }
+  }
+]
